@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    //Header
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF008080"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="63dp"
+            android:background="@mipmap/ic_ik_foreground"></ImageView>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="240dp"
+
+            android:background="@drawable/dw3s">
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_margin="7dp"
+                android:background="@mipmap/ic_user_foreground"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+    //PanelFitur
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="Fitur"
+                            android:textSize="15sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_touch_foreground"></ImageView>
+
+                        <TextView
+                            android:textSize="7.5sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Cooming Soon"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_touch_foreground"></ImageView>
+
+                        <TextView
+                            android:textSize="7.5sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Cooming Soon"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_touch_foreground"></ImageView>
+
+                        <TextView
+                            android:textSize="7.5sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Comming Soon"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_touch_foreground"></ImageView>
+
+                        <TextView
+                            android:textSize="7.5sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Comming Soon"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_touch_foreground"></ImageView>
+
+                        <TextView
+                            android:textSize="7.5sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Comming Soon"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    //ScroolViewPanelService
+    //ScrollView1
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Gunung Latimojong, Lariang Bangi,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec Makassar, Kota Makassar, Sulawesi Selatan 90221"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4452-206"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="RCCR+53 Gn. Sari, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img1_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Jasa Install Windows"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Toko Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    //panelImage
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    //panelAlamat
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Monginsidi, Maricaya,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec. Makassar, Kota Makassar, Sulawesi Selatan 90141"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4796-1927"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="VC2C+FG Maricaya, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Gunung Latimojong, Lariang Bangi,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec Makassar, Kota Makassar, Sulawesi Selatan 90221"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4452-206"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="RCCR+53 Gn. Sari, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Gunung Latimojong, Lariang Bangi,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec Makassar, Kota Makassar, Sulawesi Selatan 90221"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4452-206"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="RCCR+53 Gn. Sari, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Gunung Latimojong, Lariang Bangi,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec Makassar, Kota Makassar, Sulawesi Selatan 90221"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4452-206"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="RCCR+53 Gn. Sari, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Gunung Latimojong, Lariang Bangi,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec Makassar, Kota Makassar, Sulawesi Selatan 90221"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4452-206"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="RCCR+53 Gn. Sari, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@mipmap/ic_al0_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al2_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al23_foreground"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_al4_foreground"></ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Jl. Gunung Latimojong, Lariang Bangi,"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="Kec Makassar, Kota Makassar, Sulawesi Selatan 90221"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="pesan link"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="0811-4452-206"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:paddingTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="4sp"
+                                android:text="RCCR+53 Gn. Sari, Kota Makassar, Sulawesi Selatan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="45dp"
+                        android:layout_height="25dp"
+                        android:text="Check"
+                        android:textSize="4dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    //ScrollView2
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="104dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="104dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="107dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="104dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="104dp"
+                android:layout_height="230dp"
+                android:background="@drawable/dc"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:src="@mipmap/ic_img_foreground"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map1_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map2_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map3_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map4_foreground"></ImageView>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_map5_foreground"></ImageView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Install Windows Laptop"
+                    android:textSize="6dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Service Komputer"
+                    android:textSize="6dp"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    //Scroll
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF008080"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_home_foreground"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_interview_foreground"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_setting_foreground"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
